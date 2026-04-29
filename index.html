@@ -332,57 +332,58 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Simulation Experiment Video</h2>
-
-      <!-- 核心修改：两栏并排布局（50% + 50%） -->
-      <div class="columns is-mobile is-variable is-4">
-        <!-- 左侧轮播：4个视频 -->
-        <div class="column is-half">
-          <div id="results-carousel-left" class="carousel results-carousel carousel-square">
-            <div class="item item-video1">
-              <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-                <source src="static/sim_video/1_kitchen_cut_tomato.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="item item-video2">
-              <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-                <source src="static/sim_video/2_kitchen_toast_bread.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="item item-video3">
-              <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-                <source src="static/sim_video/3_livingroom_watch_tv.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="item item-video4">
-              <video poster="" id="video4" controls muted loop height="100%" preload="metadata">
-                <source src="static/sim_video/4_livingroom_work.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
+      <!-- <div id="results-carousel" class="carousel results-carousel carousel-square"> -->
+        <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video1" autoplay controls muted loop playsinline height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/sim_video/1_kitchen_cut_tomato.mp4" type="video/mp4">
+          </video>
         </div>
-
-        <!-- 右侧轮播：3个视频 -->
-        <div class="column is-half">
-          <div id="results-carousel-right" class="carousel results-carousel carousel-square">
-            <div class="item item-video5">
-              <video poster="" id="video5" controls muted loop height="100%" preload="metadata">
-                <source src="static/sim_video/5_bedroom_sleep.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="item item-video6">
-              <video poster="" id="video6" controls muted loop height="100%" preload="metadata">
-                <source src="static/sim_video/6_bedroom_study.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="item item-video7">
-              <video poster="" id="video7" controls muted loop height="100%" preload="metadata">
-                <source src="static/sim_video/7_bathroom_shower.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
+        <div class="item item-video2">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video2" autoplay controls muted loop playsinline height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/sim_video/2_kitchen_toast_bread.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" autoplay controls muted loop playsinline height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/sim_video/3_livingroom_watch_tv.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video4">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video4" autoplay controls muted loop playsinline height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/sim_video/4_livingroom_work.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video5">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video5" autoplay controls muted loop playsinline height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/sim_video/5_bedroom_sleep.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video6">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video6" autoplay controls muted loop playsinline height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/sim_video/6_bedroom_study.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video7">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video7" autoplay controls muted loop playsinline height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/sim_video/7_bathroom_shower.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
-
     </div>
   </div>
 </section>
